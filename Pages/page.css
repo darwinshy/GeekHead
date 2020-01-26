@@ -1,0 +1,131 @@
+.gad{
+    background-image: url("img/gadgetmovi.gif");
+	background-repeat:round;
+	background-attachment:fixed;
+	margin:-10px;
+
+}
+
+
+.bn{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:60px;
+	width:140px;
+	font-size:22px;
+	background:none;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+.but{
+	background-color:transparent;
+	
+}
+
+.bn:hover{
+	border-width:0px;
+    color:white;
+	background: #1F3E7E  ;
+}
+
+.hd{
+	text-align:center;
+}
+
+.hg{
+ font-family:Agency FB;
+ font-size:64px;
+ margin-left:15px;
+ text-align:center;
+ letter-spacing:10px;
+}
+.logos{
+	margin-top:20px;
+	margin-bottom:-25px;
+	border-radius:80px;
+	transition: opacity .25s ;
+	border-style:none;
+	border-width:1px
+}
+.logos:hover{
+	opacity:0.25
+	
+}
+.content{
+	width:1200px;
+
+}
+
+.news{
+	font-family:Century Gothic;
+}
+.nhead{
+	float:left;
+	font-size:22px;
+	margin-left:20px;
+	margin-top:70px;	
+	
+}
+.nhead1{
+	float:left;
+	font-size:20px;
+	width:800px;
+	margin-left:30px;
+	
+}
+.tablein{
+	
+}
+table {
+	border:none;
+    border-collapse: collapse;
+    width: 60%;
+	float:left;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.im{
+	width:400px;
+	height:300px;
+	margin-top:150px;
+	margin-bottom:-20px;
+	margin-left:-20px;
+	margin-right:-20px;
+
+	
+}
+
+.foot{
+	height:50px;
+	color:#D6D6D6  ;
+	width:1330px;
+	margin-top:200px;
+	
+
+	
+}
+
+.con{
+height:560px;	
+transition: background .5s;
+width:1320px;
+padding-left:20px;
+opacity:.1;
+transition: opacity 0.2s;
+}
+
+.con:hover{
+	opacity:1
+}

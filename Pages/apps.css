@@ -1,0 +1,120 @@
+.gad{
+    background: url("img/movi3.gif");
+	background-repeat:round;
+	background-attachment:fixed;
+	margin:-10px;
+    height:200px;
+
+}
+
+
+.bn{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:60px;
+	width:140px;
+	font-size:22px;
+	background:none;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+.but{
+	background-color:transparent;
+	
+}
+
+.bn:hover{
+	border-width:0px;
+    color:white;
+	background: #1F3E7E  ;
+}
+
+.hd{
+	text-align:center;
+}
+
+.hg{
+ font-family:Agency FB;
+ font-size:64px;
+ margin-left:15px;
+ text-align:center;
+ letter-spacing:10px;
+}
+ 
+ .card{
+	 border:none;
+	 border-color:white;
+	 background:white;
+	 height:400px;
+	 width:300px;
+	 margin-top:100px;
+	 margin-left:105px;
+	 float:left;
+     padding: 10px;
+     box-shadow: 2px 10px 8px #888888;
+	 opacity:0.2;
+	 transition: opacity .5s ;
+ }
+ .card:hover{
+	 opacity:1;
+ }
+ .logos{
+	margin-top:20px;
+	margin-bottom:-25px;
+	transition: opacity .25s ;
+	border-style:none;
+	border-width:1px
+}
+
+.nhead{
+	font-family:Tw Cen MT;
+	font-size:32px;
+	margin-top:70px;	
+	
+}
+.nhead1{
+	line-height:25px;
+	font-family:Century Gothic;	
+	float:left;
+	font-size:15px;
+	margin-top:-5px;
+	
+}
+.bn1{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:40px;
+	width:140px;
+	font-size:15px;
+	background-color:#F7F7F7;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+
+.bn1:hover{
+	border-width:0px;
+    color:white;
+	background: #1F3E7E  ;
+}
+.foot{
+	
+	height:50px;
+	color:#D6D6D6  ;
+    margin-top:1700px;
+	
+
+	
+}
+	

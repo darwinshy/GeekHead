@@ -1,0 +1,137 @@
+.gad{
+	background: url("img/movi4.gif");
+	background-repeat:round;
+	background-attachment:fixed;
+	margin:-10px;
+	 
+
+}
+
+
+.bn{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:60px;
+	width:140px;
+	font-size:22px;
+	background:none;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+.but{
+	background-color:transparent;
+	
+}
+
+.bn:hover{
+	border-width:0px;
+    color:white;
+	background: #1F3E7E  ;
+}
+
+.hd{
+	text-align:center;
+}
+
+.hg{
+ font-family:Agency FB;
+ font-size:64px;
+ margin-left:15px;
+ text-align:center;
+ letter-spacing:10px;
+}
+.logos{
+	margin-top:20px;
+	margin-bottom:-25px;
+	border-radius:80px;
+	transition: opacity .25s ;
+	border-style:none;
+	border-width:1px
+}
+.logos:hover{
+	opacity:0.25
+	
+}
+.content{
+
+
+}
+
+.news{
+	font-family:Century Gothic;
+}
+.nhead{
+	font-family:Bodoni MT;
+	float:left;
+	font-size:32px;
+	margin-left:70px;
+	margin-top:90px;	
+	width:750px;
+	
+	
+}
+.nhead1{
+	line-height:30px;
+	text-align:justify;
+	font-family:Century;	
+	float:left;
+	font-size:20px;
+	width:750px;
+	margin-left:75px;
+	margin-top:-10px;
+}
+.nhead2{
+	line-height:30px;
+	text-align:justify;
+	font-family:Century;	
+	float:left;
+	font-size:15px;
+	width:750px;
+	margin-left:75px;
+	margin-top:-10px;
+}
+
+
+.tablein{
+	
+}
+
+.im{
+	width:300px;
+	height:210px;
+	margin-top:95px;
+	margin-bottom:-20px;
+	margin-left:40px;
+	margin-right:-20px;
+
+	
+}
+
+.foot{
+	
+	height:50px;
+	color:#D6D6D6  ;
+    margin-top:200px;
+	
+
+	
+}
+
+.con{
+background:white;
+height:600px;	
+transition: background .5s;
+padding-left:50px;
+opacity:.1;
+transition: opacity 0.2s;
+}
+ 
+.con:hover{
+	opacity:1
+}

@@ -1,0 +1,200 @@
+.gad{
+	background: url("header.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:-10px;
+	background-size: cover;
+    height:200px;
+
+}
+
+
+.bn{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:60px;
+	width:140px;
+	font-size:22px;
+	background:none;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+.but{
+	background-color:transparent;
+	
+}
+
+.bn:hover{
+	border-width:0px;
+    color:white;
+	background: #1F3E7E  ;
+}
+
+.hd{
+	text-align:center;
+}
+
+.hg{
+ font-family:Futura Md BT;
+ font-size:64px;
+ margin-left:15px;
+ text-align:center;
+ letter-spacing:10px;
+}
+ 
+ .card{
+	 border:none;
+	 border-color:white;
+	 background:white;
+	 height:340px;
+	 width:1100px;
+	 margin-top:100px;
+	 margin-left:120px;
+	 float:left;
+     padding: 10px;
+     box-shadow: 2px 10px 8px #888888;
+	 opacity:0.2;
+	 transition: opacity .5s ;
+ }
+.card:hover{
+	 opacity:1;
+ }
+ .logos{
+	margin-top:20px;
+	margin-bottom:-25px;
+	transition: opacity .25s ;
+	border-style:none;
+	border-width:1px
+}
+
+.nhead{
+	letter-spacing:5px;
+	font-family:Times New Roman;
+	font-size:25px;
+	margin-top:20px;	
+	
+}
+.nhead1{
+	line-height:25px;
+	font-family:Century Gothic;	
+	float:left;
+	font-size:15px;
+	margin-top:-5px;
+	
+}
+.bn1{
+	font-family:Century Gothic;
+	margin-top:100px;
+	margin-bottom:20px;
+	height:70px;
+	width:210px;
+	font-size:25px;
+	background-color:#F7F7F7;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+
+.bn1:hover{
+	border-width:0px;
+    color:white;
+	background: #2F6A00  ;
+}
+.foot{
+	
+	height:50px;
+	color:#D6D6D6  ;
+    margin-top:0px;
+}
+
+input{
+    color:white;
+	height:20px;
+	width:20px;
+	border-width:10px;	
+	transition:height 1s ;
+	transition:width 1s ;
+	margin-right:10px;
+	margin-left:50px;
+	margin-top:20px;
+	transition: width 0.25s;
+}
+
+input:checked {
+   width:25px;
+  
+}
+
+#result{
+	border:none;
+	border-width:1px;
+	margin-left:100px;
+	transition: 2s;
+	font-family:Futura Bk BT;
+	margin-right:100px;
+	
+}
+
+#correct1{
+color:#FF6F6F  ;  
+}
+#correct2{
+color:#FF6F6F  ;  
+}
+#correct3{
+color:#FF6F6F  ;  
+}
+#correct4{
+color:#FF6F6F  ;  
+}
+#correct5{
+color:#FF6F6F  ;  
+}
+#correct6{
+color:#FF6F6F  ;  
+}
+#correct7{
+color:#FF6F6F  ;  
+}
+
+#Sc1{
+	color:red;
+	float:right;
+	 border:none;
+	 width:200px;
+	 height:210px;
+	 border-radius:200px;
+	 border-color:white;
+	 background:white;
+	 box-shadow: 2px 10px 8px #888888;
+	 transition:background 0.50s,color .50s;
+
+	 
+	
+}
+
+
+#Sc2{
+	color:green;
+	float:right;
+	 border:none;
+	 width:200px;
+	 height:210px;
+	 border-radius:200px;
+	 border-color:white;
+	 background:white;
+	 box-shadow: 2px 10px 8px #888888;
+	 transition:background 0.50s,color 0.50s;
+	
+}
+

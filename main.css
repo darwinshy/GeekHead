@@ -1,0 +1,274 @@
+.overlay {
+    background-image: url(img/movi2.gif);
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 10%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+    color:white:
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.d1{
+  margin : -15px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-image : url("img/movi2.gif") ;
+  height:550px;
+  transition: background .2s,color .2s,background-image .2s ;
+  }
+.d1:hover{
+background: black;
+color:white;
+    background-image: url(Pages/img/clip3.gif);
+}
+
+.bn{
+	font-family:Agency FB;
+	margin-top:8px;
+	margin-bottom:20px;
+    margin-left: -10px;
+	height:60px;
+	width:180px;
+	font-size:40px;
+	background:black;
+	color:white; 
+    transition: border .5s;
+    transition: color .1s;
+    transition: background .1s,width .1s;
+    border: none;
+}
+
+.bn:hover{
+    color:black;
+	background:white;
+    width:200px;
+}
+
+.bn1{
+	font-family:Agency FB;
+	margin-top:8px;
+	margin-bottom:20px;
+    margin-left: -10px;
+	height:50px;
+	width:180px;
+	font-size:30px;
+	background:none;
+	color:white; 
+    transition: border .5s;
+    transition: color .1s;
+    transition: background .1s,width .1s;
+    border: none;
+}
+.bn1:hover {
+	 color:black;
+	background:white;
+    width:200px;
+}
+
+.fader{
+    transition:font-color .1s,color .1s ;
+}
+
+.fader:hover{
+font-color:white;
+}
+.sepr{
+    transition: width .3s;
+}    
+.d1:hover .sepr{
+        width: 600px;
+    }
+
+.db{
+	font-family:Agency FB,Haettenschweiler;
+	font-size:180px;
+	padding-top:70px;
+	padding-left:20px;
+    text-align: center;
+    
+}
+
+
+.dc {
+	font-size:20px;
+	font-family: Century Gothic;
+	padding-left:30px;
+    text-align: center;
+}
+
+
+.d2{
+	height:600px;
+}
+
+.p1{
+	text-align:center;
+	margin-bottom:-18px;
+	margin-left:30px;
+    margin-top:40px;
+	font-size:30px;
+	color:#0C0436  ;
+}
+
+.i1{
+
+	padding-top:50px;
+	padding-left:100px;
+}
+.p2{
+	
+	margin-top:-2px;
+	margin-right:20px;
+	margin-left:20px;
+	padding: 10px;
+}
+
+.d3{
+  margin : -9px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image : url("img/d2.jpg") ;
+  height:400px;
+  background-image : url("img/vr.jpg") ;
+}
+.logos{
+	margin-top:20px;
+	margin-bottom:-25px;
+	transition: opacity .25s ;
+	border-width:1px
+}
+
+.logos:hover{
+	opacity:0.25
+	
+}
+.d4{
+	opacity:.5;
+  margin : -9px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image : url("img/np.jpg") ;
+  height:370px;
+
+}
+
+.d5{
+	opacity:.5;
+  margin : -9px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image : url("img/apb.jpg") ;
+  height:370px;
+
+}
+
+.bnt{
+	font-family:Century Gothic;
+	margin-top:8px;
+	margin-bottom:20px;
+	height:50px;
+	width:140px;
+	font-size:15px;
+	background:none;
+	color:#0E163D;
+    border-width:0px;
+	border-style:groove;
+    transition: border .5s;
+    transition: color .25s;
+    transition: background .25s;
+	
+}
+
+
+
+.bnt:hover{
+	border-width:0px;
+    color:white;
+	background: #6C0101  ;
+}

@@ -1,0 +1,274 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" />
+<title>Gadgets</title>
+
+<link rel="stylesheet" type="text/css" href="quiz.css">
+<script type="text/javascript">
+function abc(){
+
+var a,b,c,d,e,f,g,p,q ;
+a = frm.a.value ;
+b = frm.b.value ;
+c = frm.c.value ;
+d = frm.d.value ;
+e = frm.e.value ;
+f = frm.f.value ;
+g = frm.g.value ;
+
+
+
+var i = document.getElementById("result");
+    i.querySelector("#your1").innerHTML = "You have selected : " + a;
+	i.querySelector("#correct1").innerHTML = "The correct answer is : HyperText Preprocessor" 
+    
+var j = document.getElementById("result");
+    j.querySelector("#your2").innerHTML = "You have selected : " + b;
+    j.querySelector("#correct2").innerHTML = "The correct answer is : Micro"
+    
+var k = document.getElementById("result");
+    k.querySelector("#your3").innerHTML = "You have selected : " + c;
+    k.querySelector("#correct3").innerHTML = "The correct answer is : Google"
+   
+var l = document.getElementById("result");
+    l.querySelector("#your4").innerHTML = "You have selected : " + d;
+    l.querySelector("#correct4").innerHTML = "The correct answer is : Alibaba "
+    
+var m = document.getElementById("result");
+    m.querySelector("#your5").innerHTML = "You have selected : " + e;
+    m.querySelector("#correct5").innerHTML = "The correct answer is : Through Mobiles"
+   
+var n = document.getElementById("result");
+    n.querySelector("#your6").innerHTML = "You have selected : " + f;
+    n.querySelector("#correct6").innerHTML = "The correct answer is : Larry	"
+  
+var o = document.getElementById("result");
+    o.querySelector("#your7").innerHTML = "You have selected : " + g;
+    o.querySelector("#correct7").innerHTML = "The correct answer is : A11 Bionic	"
+   
+
+	
+}
+
+
+function scorescalc(){
+var correct=0;
+var wrong=0 ;
+
+
+if(frm.a.value=="HyperTextPreprocessor"){
+correct = correct + 1 
+}	
+else
+wrong = wrong + 1;
+
+if(frm.b.value=="Micro"){
+correct = correct + 1 
+}
+else
+wrong = wrong + 1;
+
+if(frm.c.value=="Google"){
+correct = correct + 1 
+}
+else
+wrong = wrong + 1;
+
+if(frm.d.value=="Alibaba"){
+correct = correct + 1 
+}
+else
+wrong = wrong + 1;
+
+if(frm.e.value=="ThroughMobiles"){
+correct = correct + 1 
+}
+else
+wrong = wrong + 1;
+
+if(frm.f.value=="Larry"){
+correct = correct + 1
+}
+else
+wrong = wrong + 1;
+
+if(frm.g.value=="A11Bionic"){
+correct = correct + 1 
+}
+else
+wrong = wrong + 1;	
+
+
+var p = document.getElementById("result");
+    p.querySelector("#Sc1").innerHTML = "<br><br><br>"+" • "+wrong  + " wrong attempts" ;
+    p.querySelector("#Sc2").innerHTML = "<br><br><br>"+" •"+correct+ " correct attempts" ;
+
+
+   
+}
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+
+
+<div class ="gad">
+<center><b>
+<a href="../Home.html"><input type="button" class="bn" value="Home" ></a>
+<a href="../Pages/Gadgets.html"><input type="button" class="bn" value="Gadgets"></a>
+<a href="../Pages/News.html"><input type="button" class="bn" value="News"></a>
+<a href="../Pages/Apps.html"><input type="button" class="bn" value="Apps"></b></a>
+</center>
+
+
+
+
+
+<div class="hg">Quiz Time</div>
+
+<div class="card">
+<p class=nhead>1.What is the fullform of PHP ?</p>
+<form name=frm>
+<input  type="radio" name="a" value="Post Hyper processor"><font face="Century Gothic" size=5>Post Hyper processor
+<br>
+<input  type="radio" name="a" value="Pre Processor Text"><font face="Century Gothic" size=5>Pre Processor Text
+<br>
+<input  type="radio" name="a" value="HyperTextPreprocessor"><font face="Century Gothic" size=5>HyperText Preprocessor
+<br>
+<input  type="radio" name="a" value="Hypertext Postprocessor"><font face="Century Gothic" size=5>Hypertext Postprocessor
+
+</div>
+
+<div class="card">
+<p class=nhead>2.What does M stand for in AMD?</p>
+
+<input  type="radio" name="b" value="Measured"><font face="Century Gothic" size=5>Measured
+<br>
+<input  type="radio" name="b" value="Micro"><font face="Century Gothic" size=5>Micro
+<br>
+<input  type="radio" name="b" value="Made"><font face="Century Gothic" size=5>Made
+<br>
+<input  type="radio" name="b" value="Mode"><font face="Century Gothic" size=5>Mode
+
+</div>
+
+<div class="card">
+<p class=nhead>3. OK ?</p>
+
+<input  type="radio" name="c" value="Cortana"><font face="Century Gothic" size=5>Cortana
+<br>
+<input  type="radio" name="c" value="Siri"><font face="Century Gothic" size=5>Siri
+<br>
+<input  type="radio" name="c" value="Google"><font face="Century Gothic" size=5>Google
+<br>
+<input  type="radio" name="c" value="Alexa"><font face="Century Gothic" size=5>Alexa
+ 
+</div>
+
+<div class="card">
+<p class=nhead>4. If I am Jack Ma ,What do I own  ?</p>
+
+<input  type="radio" name="d" value="Uber"><font face="Century Gothic" size=5>Uber
+<br>
+<input  type="radio" name="d" value="Alibaba"><font face="Century Gothic" size=5>Alibaba
+<br>
+<input  type="radio" name="d" value="Flipkart"><font face="Century Gothic" size=5>Flipkart
+<br>
+<input  type="radio" name="d" value="Ola"><font face="Century Gothic" size=5>Ola
+
+</div>
+
+<div class="card">
+<p class=nhead>5. What does TM stand in Paytm?</p>
+
+<input  type="radio" name="e" value="Track Method"><font face="Century Gothic" size=5>Track Method
+<br>
+<input  type="radio" name="e" value="Through Message"><font face="Century Gothic" size=5>Through Message
+<br>
+<input  type="radio" name="e" value="Terms"><font face="Century Gothic" size=5>Terms
+<br>
+<input  type="radio" name="e" value="ThroughMobiles"><font face="Century Gothic" size=5>Through Mobiles
+ 
+</div>
+
+<div class="card">
+<p class=sixth>6. What is the name of twitter bird ? </p>
+
+<input  type="radio" name="f" value="Honey"><font face="Century Gothic" size=5>Honey
+<br>
+<input  type="radio" name="f" value="Larry"><font face="Century Gothic" size=5>Larry	
+<br>
+<input  type="radio" name="f" value="Pyle"><font face="Century Gothic" size=5>Pyle
+<br>
+<input  type="radio" name="f" value="Tera"><font face="Century Gothic" size=5>Tera
+
+</div>
+
+<div class="card">
+<p class=nhead>7. Apple used which ARM based chip ? </p>
+
+<input  type="radio" name="g" value="AMD"><font face="Century Gothic" size=5>AMD
+<br>
+<input  type="radio" name="g" value="A11Bionic"><font face="Century Gothic" size=5>A11 Bionic	
+<br>
+<input  type="radio" name="g" value="Snapdragon"><font face="Century Gothic" size=5>Snapdragon 
+<br>
+<input  type="radio" name="g" value="Qualcomm"><font face="Century Gothic" size=5>Qualcomm
+ 
+</div>
+<br><center>
+<input type="button" class="bn1" value="Check Answers" onClick="abc()">
+<input type="button" class="bn1" value="Scores" onClick="scorescalc()">
+</center>
+<br>
+<hr align="center">
+<div id="result">
+<div id="Sc1" align="center">  </div>
+<div id="Sc2" align="center"></div>
+
+<div id="your1"></div> 
+<div id="correct1"> </div>
+<br>
+<div id="your2"></div>
+<div id="correct2"> </div>
+<br>
+<div id="your3"></div>
+<div id="correct3"> </div>
+<br>
+<div id="your4"></div>
+<div id="correct4"> </div>
+<br>
+<div id="your5"></div>
+<div id="correct5"> </div>
+<br>
+<div id="your6"></div>
+<div id="correct6"> </div>
+<br>
+<div id="your7"></div>
+<div id="correct7"> </div>
+
+
+
+
+</div>
+
+
+
+</form>
+<br><br>
+<div class="foot">
+<hr align="center">
+
+<p align="center" style="color:#B3B3B3; font-size:15px">
+ Designed by Shashwat Priyadarshy	
+</p>
+
+</div>
+</body>
+</html>
